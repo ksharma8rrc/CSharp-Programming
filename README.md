@@ -1,4 +1,4 @@
-# ADEV-2008 HOW TO USE THSE CODES?
+# ADEV-2008 HOW TO USE THESE CODES?
 
 Welcome ADEV-2008. Please use this git lib to get started with coding. 
 
