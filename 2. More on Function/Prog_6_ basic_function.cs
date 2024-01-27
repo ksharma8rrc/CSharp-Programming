@@ -1,4 +1,4 @@
-// Prog_6 and Prog_7 are linked. Please do both of them
+// Prog_6, Prog_7 and Prog_8 are linked. Please do all of them
 // IMPLEMENTING A+B IN Function1. THE Function1 MUST RETURN THE OUTPUT FOR FURTHER CALCULATION
 // Function2 takes the output from Function 1 and print the squared result. 
 
