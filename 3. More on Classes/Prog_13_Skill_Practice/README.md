@@ -1,3 +1,5 @@
+## Use the provided template and code where needed
+## OR
 ## Create a new project
 Console Application Project (C#, .NET)
 
