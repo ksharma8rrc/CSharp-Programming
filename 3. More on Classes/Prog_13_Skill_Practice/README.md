@@ -1,8 +1,9 @@
 ## Create a new project
 Console Application Project (C#, .NET)
 
-Project Name: Prog_13
-Solution Name: Prog_13_skill_practice
+Project Name: Prog_13 Template
+
+Solution Name: Prog_13 Solution
 
 ## Code a Structure
 Develop a structure named Student. This structure (struct) represents a Student.
