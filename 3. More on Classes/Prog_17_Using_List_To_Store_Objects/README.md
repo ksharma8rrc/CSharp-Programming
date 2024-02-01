@@ -1,2 +1,2 @@
 # IMPORTANT 
-## FOllow the Prog_18 to get full context
+## Follow Prog_18 to get full context
