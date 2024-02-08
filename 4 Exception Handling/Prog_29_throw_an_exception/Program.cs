@@ -1,31 +1,41 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
 
 public class ThrowTest
 {
-    public static void fn(Int32 age)
+    public void fn(int age)
     {
-        if (age < 0)
+        if (age < 18)
         {
-            // throw an argument out of range exception if the age is
-            // less than zero.
-            throw new ArgumentOutOfRangeException("Age Cannot Be Negative ");
+            throw new Exception("You are not old enough for this application");
+        }
+        else 
+        {
+            Console.WriteLine("ALL GOOD, you can sign up");
         }
     }
-
-    public static void Main()
+}
+class Program
+{
+    static void Main(string[] args)
     {
-    
+        ThrowTest obj1 = new ThrowTest();
+
         try
         {
-            fn(-10);
+            obj1.fn(15);
+        }
+        catch (Exception e) 
+        {
+           Console.WriteLine("Error in e: " + (e.Message));
         }
 
-        catch (Exception e)
-        {
-            Console.WriteLine(e.Message);
-            
-        }
-      
+        Console.WriteLine("\nPress any key to continue...");
         Console.ReadKey();
     }
+
 }
