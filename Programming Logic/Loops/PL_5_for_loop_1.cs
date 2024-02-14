@@ -10,7 +10,7 @@ namespace ConsoleApp12
     {
         static void Main(string[] args)
         {
-
+            // or use i <=5 for running the loop upto value 5, i.e 6 times.
             for (int i = 0; i < 5; i++)
             {
                 Console.WriteLine("This is loop cycle: " +i);
