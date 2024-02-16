@@ -23,7 +23,7 @@ namespace ConsoleApp14
     {
         //NOT AUTO IMPLEMENTED
 
-        public int sin_number;
+        private int sin_number;
         public int Data
         {
             get { return sin_number; }
