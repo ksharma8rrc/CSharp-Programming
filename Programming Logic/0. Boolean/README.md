@@ -10,6 +10,11 @@
      // Not Equal 
      Console.WriteLine((1!=2)); // Returns True 
 
+### Extensive use in loops 
+
+     // Greater than equal to >=
+     // Less than equal to <=
+
 
 
 # Logical And 
