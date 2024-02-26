@@ -1,3 +1,6 @@
+// In C#, an abstract class is a class that cannot be instantiated. Instead, it serves as a base class for other classes to inherit from. 
+//    Abstract classes are used to define a common set of behaviors or properties that derived classes should have.
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
